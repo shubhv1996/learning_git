@@ -40,77 +40,77 @@ Here is a concise list of all major **Git commands** and their typical usage, co
   Shows brief commit history.
 
 - **git show <commit>**  
-  Shows details of a specific commit.[2]
+  Shows details of a specific commit.
 
 ## Branching
 
 - **git branch**  
-  Lists local branches.[3][1][2]
+  Lists local branches.
 
 - **git branch <name>**  
-  Creates a new branch.[1][2]
+  Creates a new branch.
 
 - **git branch -d <name>**  
-  Deletes a branch.[3][1][2]
+  Deletes a branch.
 
 - **git checkout <branch>**  
-  Switches to the specified branch.[3][1][2]
+  Switches to the specified branch.
 
 - **git checkout -b <name>**  
-  Creates and checks out a new branch.[3][1][2]
+  Creates and checks out a new branch.
 
 - **git merge <branch>**  
-  Merges another branch into current branch.[1][2]
+  Merges another branch into current branch.
 
 ## Remote Repositories
 
 - **git remote add origin <url>**  
-  Adds a new remote repository.[4][1]
+  Adds a new remote repository.
 
 - **git remote -v**  
-  Lists remote repositories.[4][1]
+  Lists remote repositories.
 
 - **git push**  
-  Pushes committed changes to remote repository.[2][3][1]
+  Pushes committed changes to remote repository.
 
 - **git push origin <branch>**  
-  Pushes branch to remote.[4][1]
+  Pushes branch to remote.
 
 - **git pull**  
-  Fetches updates from remote and merges.[3][1][2]
+  Fetches updates from remote and merges.
 
 - **git fetch**  
-  Fetches updates from remote, but does not merge.[1][2]
+  Fetches updates from remote, but does not merge.
 
 ## Staging and Undo
 
 - **git stash**  
-  Temporarily stashes local changes.[2][1]
+  Temporarily stashes local changes.
 
 - **git stash pop**  
-  Applies latest stashed changes.[4]
+  Applies latest stashed changes.
 
 - **git checkout -- <file>**  
-  Discards changes in a file.[3][1]
+  Discards changes in a file.
 
 - **git reset <file>**  
-  Unstages a file from the staging area.[2]
+  Unstages a file from the staging area.
 
 ## Configuration
 
 - **git config --global user.name "name"**  
-  Sets global username for commits.[1][2]
+  Sets global username for commits.
 
 - **git config --global user.email "email"**  
-  Sets global email for commits.[1][2]
+  Sets global email for commits.
 
 ## Comparison and Inspection
 
 - **git diff**  
-  Shows differences between files and branches.[2][1]
+  Shows differences between files and branches.
 
 - **git diff <source branch> <target branch>**  
-  Preview changes before merging.[4][1]
+  Preview changes before merging.
 
 ## Tagging
 
@@ -123,21 +123,21 @@ Here is a concise list of all major **Git commands** and their typical usage, co
 
 | Command                          | Use                                        |
 |-----------------------------------|--------------------------------------------|
-| git init                         | Initialize repository [1]              |
-| git clone <url>                   | Clone remote repo [1]                  |
-| git add <file>                    | Stage file [1]                         |
-| git commit -m "msg"               | Commit changes [1][2]              |
-| git status                        | View file changes [1]                  |
-| git branch <name>                 | Create a branch [1][2]             |
-| git checkout <branch>             | Switch branches [1][3]            |
-| git merge <branch>                | Merge branch [1][2]                |
-| git push                          | Push changes [1][4]               |
-| git pull                          | Pull updates [1][3]               |
-| git log                           | View history [1][2]                |
-| git diff                          | Show changes [1][2]                |
-| git stash                         | Stash changes [1][2]               |
-| git config --global user.name     | Set username [1][2]                |
-| git config --global user.email    | Set email [1][2]                   |
+| git init                         | Initialize repository                 |
+| git clone <url>                   | Clone remote repo                     |
+| git add <file>                    | Stage file                            |
+| git commit -m "msg"               | Commit changes                    |
+| git status                        | View file changes                     |
+| git branch <name>                 | Create a branch                   |
+| git checkout <branch>             | Switch branches                  |
+| git merge <branch>                | Merge branch                      |
+| git push                          | Push changes                     |
+| git pull                          | Pull updates                     |
+| git log                           | View history                      |
+| git diff                          | Show changes                      |
+| git stash                         | Stash changes                     |
+| git config --global user.name     | Set username                      |
+| git config --global user.email    | Set email                         |
 
-This covers all essential **Git commands** and their uses for everyday version control and collaboration tasks.[3][1][2]
+This covers all essential **Git commands** and their uses for everyday version control and collaboration tasks.
 
